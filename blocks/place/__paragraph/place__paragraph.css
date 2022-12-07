@@ -1,0 +1,10 @@
+.place__paragraph{
+    color:#FFFF;
+    
+margin: 0 0 26px 0;
+ padding: 0;
+  }
+
+  .place__paragraph:last-child {
+    margin: 0;
+  }
