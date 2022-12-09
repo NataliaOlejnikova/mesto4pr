@@ -1,17 +1,17 @@
 .cover__overlay {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-    text-decoration: none;
+    text-decoration:none;
     color: #FFFF;
     background-color: rgba(42, 44, 47, .3);
-    padding: 0;
+    padding:0;
     transition: all 0.8s ease-in-out;
     max-width: 1184px;
     width:100%;
     height: calc(0.62 * 100vw);
-    margin:0 auto 92px auto;
+    margin:92px auto 64px;
 
   
   }
