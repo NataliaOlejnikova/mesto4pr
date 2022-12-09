@@ -8,7 +8,7 @@
   color: #FFF;
   transition: 0.4s ease-in-out;
 }
-/* Затемнение при наведении на ссылку */
+
 .place__website_link:hover {
   opacity: 0.8;
 }

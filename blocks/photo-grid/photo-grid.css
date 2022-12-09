@@ -7,3 +7,25 @@
   width: 100%;
   gap:16px;
 }
+@media screen and (max-width:1024px){
+  .photo-grid{
+    grid-template-columns: repeat(3, 300px);
+    gap:14px;
+  }
+  
+}
+@media screen and (max-width:768px){
+  .photo-grid{
+    grid-template-columns: repeat(2, 352px);
+    margin: 0 auto 88px auto;
+  }
+  
+}
+@media screen and (max-width:320px){
+  .photo-grid{
+    grid-template-columns:100%;
+    margin: 0 auto 64px auto;
+    gap:12px;
+  }
+  
+}

@@ -6,3 +6,17 @@ color: #FFFF;
 padding-bottom: 33px;
 margin: 0;
 }
+
+@media screen and (max-width: 375px) {
+    .intro__text{
+    max-width:288px;
+    padding: 0 0 34px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__text{
+    max-width:720px;
+   
+    }
+}
