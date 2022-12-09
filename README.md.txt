@@ -16,6 +16,6 @@
 
 Верстка страницы сделана с применением Flexbox и Grid , для адаптации испульзуются медиа запросы.
 
-
+Ссылка на сайт https://nataliaolejnikova.github.io/russian-travel/
 
 Технологии на сайте: html5 , css3 , breakpoints , БЭМ (Nested)
