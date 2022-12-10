@@ -20,15 +20,17 @@
   .photo-grid {
     grid-template-columns: repeat(2, 352px);
     margin: 0 auto 88px auto;
+    width: calc(100% - 48px);
   }
 
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:320px) {
   .photo-grid {
     grid-template-columns: 100%;
     margin: 0 auto 64px auto;
     gap: 12px;
+    width: calc(100% - 32px);
   }
 
 }
