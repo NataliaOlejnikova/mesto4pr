@@ -1,4 +1,5 @@
 .footer__link {
+  max-width: 1253px;
   font-size: 16px;
   line-height: 18px;
   color: #FFFF;
@@ -12,14 +13,14 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 599px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
   .footer__item {
     font-weight: 400;
     font-size: 16px;
