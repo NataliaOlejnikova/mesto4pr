@@ -4,8 +4,8 @@
   padding: 0;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400;
   text-align: center;
+  position: relative;
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;

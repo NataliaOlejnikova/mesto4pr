@@ -1,11 +1,10 @@
 .footer__link {
-  max-width: 1253px;
-  font-size: 16px;
-  line-height: 18px;
-  color: #FFFF;
+  text-decoration: none;
+  color: #FFF;
   padding: 0;
   margin: 0;
-  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
   transition: 0.4s ease-in-out;
 }
 
