@@ -5,3 +5,9 @@
   line-height: 18px;
   list-style-type: none;
 }
+@media screen and (max-width: 375px) {
+  .intro__list {
+    max-width: 288px;
+    padding: 34px auto o auto;
+  }
+}
