@@ -1,8 +1,7 @@
 .place {
-
-  display:grid;
+  display: grid;
   margin: 0 0 80px 0;
-  padding:0;
+  padding: 0;
   grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / minmax(340px, 460px) minmax(352px, 484px);
   gap: 48px 40px;
 }
@@ -26,7 +25,6 @@
 
 @media screen and (max-width: 767px) {
   .place {
-
     margin: 0 0 50px 0;
     grid-template-columns: 100%;
     gap: 32px;

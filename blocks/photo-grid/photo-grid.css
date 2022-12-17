@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     grid-template-columns: 100%;
     margin: 64px auto 64px auto;
