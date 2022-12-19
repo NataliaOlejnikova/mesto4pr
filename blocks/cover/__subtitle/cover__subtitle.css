@@ -9,14 +9,14 @@
   position: relative;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 22px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 367px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
