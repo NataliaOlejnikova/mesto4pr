@@ -1,0 +1,16 @@
+.gallery__button {
+  max-width: 22px;
+  height: 19px;
+  width: 100%;
+  background-image: url(../../../image/Vector2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+  margin-top: 5px;
+}
+
+.gallery__button:hover {
+  opacity: 0.5;
+}

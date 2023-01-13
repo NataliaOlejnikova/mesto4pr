@@ -1,0 +1,11 @@
+.profile__infos {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .profile__infos {
+    gap: 18px;
+    max-width: 336px;
+  }
+}

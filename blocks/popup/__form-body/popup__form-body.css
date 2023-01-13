@@ -1,0 +1,13 @@
+.popup__form-body {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 25px 22px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1240px) {
+  .popup__form-body {
+    padding: 34px 36px 48px 36px;
+  }
+}

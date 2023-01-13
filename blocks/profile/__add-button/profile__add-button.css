@@ -1,0 +1,41 @@
+.profile__add-button {
+  margin-top: 35px;
+  padding: 0;
+  width: 282px;
+  height: 50px;
+  background-image: url(../../../image/Edit.png);
+  background-position: center;
+  background-color: inherit;
+  background-repeat: no-repeat;
+  border: 1px solid #FFFF;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.profile__add-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+@media screen and (min-width: 1000px) {
+  .profile__add-button {
+    max-width: 100px;
+    max-height: 40px;
+    background-size: 16px 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .profile__add-button {
+    max-width: 150px;
+    max-height: 50px;
+  }
+}
